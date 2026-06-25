@@ -1,0 +1,88 @@
+*{
+	margin: 0;
+	padding:0;
+	box-sizing: border-box;
+	font-family:'poppins',sans-serif;
+}
+body{
+	min-height:100vh;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	background: linear-gradient(135deg,#00c853,#00acc1)
+}
+.container{
+	width:90%;
+	max-width:700px;
+	background:white;
+	padding:30px;
+	border-radius:15px;
+	box-shadow:0 10px 25px rgba(0,0,0,0.2);
+}
+h1{
+	color: #00a86b;
+	margin-bottom: 10px;
+}
+p{
+	color: #666;
+	margin-bottom: 20px;
+}
+.display{
+	display: flex;
+	margin-bottom: 20px;
+}
+.display input{
+	flex:1;
+	padding: 15px;
+	font-size: 20px;
+	border: 2px solid #ddd;
+	border-radius: 8px 0 0 8px;
+}
+.display button{
+	width: 60px;
+	border: none;
+	background: #00a86b;
+	color: white;
+	font-size: 20px;
+	cursor: pointer;
+	border-radius: 0 8px  8px 0;
+}
+.buttons{
+	display: flex;
+	gap: 10px;
+	margin-bottom: 20px;
+}
+.buttons button{
+	flex:1;
+	padding: 12px;
+	border:none;
+	background: #00a86b;
+	color: white;
+	border-radius: 8px;
+	cursor: pointer;
+	font-size: 16px;
+}
+.buttons button:hover{
+	background: #008f5a;
+}
+.settings{
+	margin-top: 20px;
+}
+.settings label{
+	display: block;
+	margin: 10px 0;
+}
+#length{
+	width: 100%;
+}
+.options{
+margin-top: 15px;
+}
+.options label{
+	margin: 8px 0;
+}
+#strength{
+	margin-top: 20px;
+	font-size: 18px;
+	font-weight: bold;
+}
